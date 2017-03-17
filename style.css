@@ -1,12 +1,21 @@
+body {
+	background-color: rgb(240,240,240)
+}
 
-#test{
+h1{
+	font-weight:bolder; 
+}
+
+h2{
+	font-weight: lighter;
+}
+
+
+#L1{
+	height: 83vh;
 	background-image: url("images/colocs2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-}
-
-#L1{
-	height: 100vh;
 }
 #header{
 	margin-left : 20px;
@@ -26,12 +35,36 @@
 	font-family: 'Roboto', sans-serif;
 
 }
+#stats h1{
+	margin-bottom: 30px;
+}
 #lien{
 	text-align: center;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
+#logoecole{
+	background-color: white;
+	padding:20px;
+	border-radius: 8px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	box-shadow: 1px 2px 3px rgb(150,150,150);
+	text-align:center;
+}
 
+#testimonial{
+	background-color: white;
+	padding:20px;
+	border-radius: 8px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	box-shadow: 1px 2px 3px rgb(150,150,150);
+	text-align:center;
 
+}
 
+.margin-side {
+	margin: 10px 30px;
+}
 
